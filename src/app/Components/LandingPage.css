@@ -1,0 +1,273 @@
+.LandingPage{
+    width: 1728px;
+    height: 4666px;
+    background: #000;
+}
+.Header{
+    width: 1728px;
+    height: 162px;
+    border: 1px solid #E4E4E4;
+    display:flex;
+    justify-content: space-between;
+
+  
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background: url("../../../public/assets/logo\ 1.png"), lightgray 50% / cover no-repeat;
+    background-color: #000;
+}
+.xeroCode{
+  
+    height: 70px;
+    padding: 0 40px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 35px; 
+    background: #000;
+    border: 2px solid white;
+    margin: 30px;
+
+}
+.xeroCode p{
+    color: #FFF;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 112px;
+height: 25px;
+}
+
+
+.headingText{
+font-family: Open Sans;
+font-size: 60px;
+
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.2px;
+background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+top: 203px; /* Distance from the top */
+  left: 271px; /* Distance from the left */
+  right: 271px; /* Distance from the right */
+  bottom: 4381px; /* Distance from the bottom */
+
+}
+.codeDoctor{
+    color: #FFF;
+font-family: ABeeZee;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+align-items: center;
+}
+
+.sentence{
+    color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 113.793% */
+letter-spacing: 0.72px;
+width: 723px;
+align-items: center;
+}
+
+.emailInput{
+    display: flex;
+width: 469px;
+height: 70px;
+padding: 85px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+
+}
+
+.emailInputText{
+    flex: 1 0 0;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: #000;
+}
+
+.emailInputButton {
+    display: flex;
+    width: 110x;
+    height: 70px; 
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 55px; 
+    border: 2px solid #FFF;
+    background: #000;
+  
+  }
+
+ .imageContainer {
+    position: relative;
+  }
+  .imageContainer {
+    position: relative;
+  }
+  
+  .ellipseContainer {
+    width: 1354px;
+    height: 577px;
+    top: 841px; /* 841px from the top of the .imageContainer */
+    left: 171px; /* 171px from the left of the .imageContainer */
+    opacity: 0.7;
+    background: none; /* Remove the background color */
+    filter: blur(100px);
+    position: absolute;
+    z-index: 1; /* Set a higher z-index to place it on top of the image */
+  }
+  
+  .ellipse3 {
+    width: 464px;
+    height: 462px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(100px);
+    position: absolute;
+    top: 101px; /* 931px from the top of the .imageContainer */
+    left: 171px; /* 171px from the left of the .imageContainer */
+    background: rgba(133, 147, 232, 1);
+  }
+  
+  .ellipse6 {
+    width: 467px;
+    height: 467px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(100px);
+    position: absolute;
+    top: 80px; /* 841px from the top of the .imageContainer */
+    left: 805px; /* 605px from the left of the .imageContainer */
+    background: rgba(252, 79, 246, 1);
+
+  }
+  
+  .ellipse1 {
+    width: 446px;
+    height: 446px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(100px);
+    position: absolute;
+    top: 172px; /* 972px from the top of the .imageContainer */
+    left: 1079px; /* 1079px from the left of the .imageContainer */
+    background: rgba(93, 110, 243, 1);
+  }
+  
+  .header2{
+    display: flex;
+width: 1100px;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-family: Urbanist;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 61.6px */
+background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  }
+
+  .header2-subtitle{
+    color: #FFF;
+text-align: center;
+font-family: Urbanist;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 51.2px */
+width: 1150px;
+  }
+
+  .benefitsList {
+    display: flex;
+    width: 600px;
+    height: 296px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #000;
+  }
+  
+  .benefitsListWrapper {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: #181924;
+  }
+  
+  .benefitItem {
+    display: flex;
+    align-items: center; /* Align items horizontally */
+    gap: 20px; /* Set the gap between the image and text */
+  }
+  
+  .benefitText {
+    /* Keep the existing styles */
+    color: #fff;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+    /* Add the following line to prevent text overflow */
+    white-space: nowrap;
+  }
+
+  .divider{
+    width: 472px;
+height: 1px;
+opacity: 0.11999999731779099;
+background: #FFF;
+  }
+  .ellipse2{
+    width: 525.501px;
+height: 427.805px;
+transform: rotate(150deg);
+
+border: 9px;
+margin-left: 400px;
+margin-bottom: 100px;
+margin-right: 700px;
+
+  }
+  
