@@ -6,12 +6,11 @@
 .Header{
     width: 1728px;
     height: 162px;
-    border: 1px solid #E4E4E4;
     display:flex;
     justify-content: space-between;
-
-  
+    align-items: center;
 }
+
 .logo{
     width: 100px;
     height: 100px;
@@ -45,11 +44,23 @@ width: 112px;
 height: 25px;
 }
 
-
+.line{
+  width: 1728px;
+height: 1px;
+background: #E4E4E4;
+}
+.headerText{
+  margin-top: 41px;
+  margin-left: 271px;
+  margin-right: 271px;
+  width: 1186px;
+  height: 82px;
+  margin-bottom: 34px;
+ 
+}
 .headingText{
 font-family: Open Sans;
 font-size: 60px;
-
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -58,47 +69,60 @@ background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-top: 203px; /* Distance from the top */
-  left: 271px; /* Distance from the left */
-  right: 271px; /* Distance from the right */
-  bottom: 4381px; /* Distance from the bottom */
+
 
 }
 .codeDoctor{
-    color: #FFF;
-font-family: ABeeZee;
-font-size: 70px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 1.4px;
-align-items: center;
+  margin-left: 656px;
+  margin-right: 656px;
+  margin-bottom: 43px;
+  color: #FFF;
+  font-family: ABeeZee;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  align-items: center;
 }
 
 .sentence{
     color: #FFF;
-text-align: center;
-font-family: Open Sans;
-font-size: 29px;
-font-style: normal;
-font-weight: 400;
-line-height: 33px; /* 113.793% */
-letter-spacing: 0.72px;
-width: 723px;
-align-items: center;
-}
-
-.emailInput{
-    display: flex;
-width: 469px;
-height: 70px;
-padding: 85px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 113.793% */
+  letter-spacing: 0.72px;
+  width: 723px;
+  align-items: center;
+  margin-left: 503px;
+  margin-right: 502px;
+  margin-bottom: 75pxs;
 
 }
+
+.emailInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  width: 469px;
+  height: 80px;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-left: 603px;
+  margin-right: 630px;
+  margin-bottom: 10px;
+  margin-top: 75px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+  border-image-slice: 1;
+  border-radius: 30px; /* Adjust the value to change the curvature */
+  background-clip: padding-box;
+}
+
 
 .emailInputText{
     flex: 1 0 0;
@@ -123,21 +147,31 @@ flex-shrink: 0;
     border-radius: 55px; 
     border: 2px solid #FFF;
     background: #000;
-  
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
   }
 
- .imageContainer {
-    position: relative;
-  }
+
   .imageContainer {
     position: relative;
+    margin-top: 16px;
+    margin-left: 62px;
+    margin-right: 61px;
   }
   
   .ellipseContainer {
     width: 1354px;
     height: 577px;
     top: 841px; /* 841px from the top of the .imageContainer */
-    left: 171px; /* 171px from the left of the .imageContainer */
+    margin-left: 171px; 
+    margin-right: 203px;/* 171px from the left of the .imageContainer */
     opacity: 0.7;
     background: none; /* Remove the background color */
     filter: blur(100px);
@@ -187,34 +221,39 @@ flex-shrink: 0;
   
   .header2{
     display: flex;
-width: 1100px;
-flex-direction: column;
-align-items: center;
-text-align: center;
-font-family: Urbanist;
-font-size: 56px;
-font-style: normal;
-font-weight: 600;
-line-height: 110%; /* 61.6px */
-background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    width: 1100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 61.6px */
+    background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 224px;
+    margin-right: 224px;
+    margin-top: 220px;
 
   }
 
   .header2-subtitle{
     color: #FFF;
-text-align: center;
-font-family: Urbanist;
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; /* 51.2px */
-width: 1150px;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 51.2px */
+    width: 1150px;
+    margin-left: 224px;
+    margin-right: 224px;
   }
 
-  .benefitsList {
+  .benefitsList1 {
     display: flex;
     width: 600px;
     height: 296px;
@@ -223,11 +262,14 @@ width: 1150px;
     align-items: center;
     flex-shrink: 0;
     background: #000;
+    margin-left: 62px;
+    margin-right: 1068px;
+   
   }
   
   .benefitsListWrapper {
     display: flex;
-    padding: 32px;
+    padding: 26px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
@@ -255,19 +297,253 @@ width: 1150px;
 
   .divider{
     width: 472px;
-height: 1px;
-opacity: 0.11999999731779099;
-background: #FFF;
+    height: 1px;
+    opacity: 0.11999999731779099;
+    background: #FFF;
   }
   .ellipse2{
     width: 525.501px;
-height: 427.805px;
-transform: rotate(150deg);
+    height: 427.805px;
+    transform: rotate(150deg);
+    margin-left: 480px;
+    margin-bottom: 90px;
+    margin-right: 138px;
+    transform: translate(15px,-80px);
+  
+  }
+  .benefitsList2 {
+    display: flex;
+    width: 600px;
+    height: 296px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #000;
+    margin-top: 20px;
+    margin-left: 940px;
+    margin-right: 62px;
+    transform: translateY(-210px);
+  }
 
-border: 9px;
-margin-left: 400px;
-margin-bottom: 100px;
-margin-right: 700px;
+  .container{
+    display: flex;
+width: 1440px;
+padding: 80px 0px;
+flex-direction: column;
+align-items: center;
+  }
+
+  .header3{
+    width: 1280px;
+  }
+  .header3Text{
+    text-align: center;
+font-family: Urbanist;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 61.6px */
+background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .cardGrid{
+    display: grid;
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+  }
+
+  .grid-item1{
+    display: flex;
+padding: 24px;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 24px;
+flex: 1 0 0;
+  }
+
+  .card1{
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    left: 142px;
+    right: 900px;
+    border-radius: 40px;
+    background: rgba(24, 25, 36, 1);
+  }
+  .card1Container{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+
+
+  }
+  .card2Container{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+
+  }
+  .cardHeading{
+    width: 618px;
+    font-family: Urbanist;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 59.4px */
+    background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .cardSubtitle{
+    align-self: stretch;
+    color: #FFF;
+font-family: Urbanist;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 136.364% */
+  }
+  .cardButton{
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+background: #4F4CE5;
+
+/* medium/blue */
+box-shadow: 0px 5px 15px 0px rgba(32, 91, 241, 0.20);
+  }
+  .cardButton p{
+    color: var(--light-100, #FFF);
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+text-transform: uppercase;
+  }
+  .card2{
+  
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    left: 142px;
+    right: 900px;
+    border-radius: 40px;
+    background: rgba(24, 25, 36, 1);
+  }
+
+  .card3Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+  .card3{
+    display: flex;
+    width: 979px;
+    height: 371px;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 40px;
+    background: rgba(24, 25, 36, 1);
+    margin-left: 374.5px;
+    margin-right: 374.5px;
+  }
+
+  .card3Heading{
+    width: 697.624px;
+    font-family: Urbanist;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 95.238% */
+    background: linear-gradient(90deg, #4F4CE5 0%, #E863FE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
   }
   
+  .card3Subtitle{
+
+    align-self: stretch;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 136.364% */
+  }
+  .header4{
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .accessTest{
+    width: 723px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 113.793% */
+    letter-spacing: 0.72px;
+  }
+
+  .footerText{
+    width: 888px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 113.793% */
+    letter-spacing: 0.72px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 109px;
+  }
+
+  .footerText span{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.72px;
+  }

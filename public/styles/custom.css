@@ -1,0 +1,5 @@
+
+.border-gradient {
+  --gradient-colors: #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%;
+  background-image: linear-gradient(90deg, var(--gradient-colors));
+}
