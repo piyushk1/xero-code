@@ -109,7 +109,7 @@ background-clip: text;
   align-items: center;
   padding: 20px 10px;
   width: 469px;
-  height: 80px;
+  height: 180px;
   gap: 10px;
   flex-shrink: 0;
   margin-left: 603px;
@@ -119,20 +119,21 @@ background-clip: text;
   border: 2px solid transparent;
   border-image: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
   border-image-slice: 1;
-  border-radius: 30px; /* Adjust the value to change the curvature */
+  border-radius: 30px; 
   background-clip: padding-box;
 }
 
 
 .emailInputText{
     flex: 1 0 0;
-    color: rgba(255, 255, 255, 0.50);
+    color: rgba(255, 255, 255);
     font-family: Space Grotesk;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     background-color: #000;
+    margin: 20px;
 }
 
 .emailInputButton {
@@ -148,7 +149,6 @@ background-clip: text;
     border: 2px solid #FFF;
     background: #000;
     color: white;
-    color: #FFF;
     text-align: center;
     font-family: Space Grotesk;
     font-size: 12px;
@@ -511,7 +511,7 @@ text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .accessTest{
+  .accessText{
     width: 723px;
     color: #FFF;
     text-align: center;
@@ -521,6 +521,9 @@ text-transform: uppercase;
     font-weight: 400;
     line-height: 33px; /* 113.793% */
     letter-spacing: 0.72px;
+    margin-top: 25px;
+    margin-left: 485.5px;
+    margin-right: 419.5px;
   }
 
   .footerText{
@@ -546,4 +549,11 @@ text-transform: uppercase;
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0.72px;
+  }
+  .errorText{
+    color: red;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    background-color: white;
   }
